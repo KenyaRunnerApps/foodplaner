@@ -1,0 +1,90 @@
+/* Onboarding */
+"onb_title_1" = "Pianifica il cibo per il viaggio";
+"onb_text_1" = "Annota ricette veloci, prepara con intelligenza, mangia meglio in movimento.";
+"onb_title_2" = "Tieni traccia delle scorte";
+"onb_text_2" = "Collega i pasti ai giorni di viaggio e riempi la spesa automaticamente.";
+"onb_title_3" = "Resta in orario";
+"onb_text_3" = "Attiva i promemoria e non dimenticare la preparazione.";
+"onb_get_started" = "Inizia";
+
+/* Tabs */
+"tab_planner" = "Piano";
+"tab_recipes" = "Ricette";
+"tab_groceries" = "Spesa";
+"tab_stats" = "Statistiche";
+"tab_settings" = "Impostazioni";
+
+/* Planner */
+"planner_selected_day" = "Giorno selezionato";
+"planner_attached_recipes" = "Ricette collegate";
+"planner_no_recipes" = "Nessuna ricetta per questo giorno";
+"planner_add_recipe" = "Aggiungi ricetta";
+"common_close" = "Chiudi";
+
+/* Recipes */
+"recipe_add" = "Aggiungi ricetta";
+"recipe_title" = "Titolo";
+"recipe_title_ph" = "es. Wrap Energetico";
+"recipe_notes" = "Note";
+"recipe_notes_ph" = "Conservazione, preparazione, ecc.";
+"recipe_ingredients" = "Ingredienti";
+"ingredient_name_ph" = "Ingrediente";
+"ingredient_qty_ph" = "Q.tà";
+"common_cancel" = "Annulla";
+"common_save" = "Salva";
+"recipe_actions" = "Azioni";
+"recipe_to_groceries" = "Invia ingredienti alla Spesa";
+
+/* Groceries */
+"groceries_add_item" = "Aggiungi elemento";
+"groceries_list" = "Elenco";
+"common_clear" = "Svuota tutto";
+
+/* Stats */
+"stats_recipes" = "Ricette";
+"stats_groceries" = "Spesa";
+"stats_planner" = "Piano";
+"stats_total_recipes" = "Totale";
+"stats_favorites" = "Preferite";
+"stats_total_items" = "Elementi";
+"stats_checked" = "Spuntati";
+"stats_days_planned" = "Giorni pianificati";
+
+/* Settings */
+"settings_appearance" = "Aspetto";
+"settings_dark_mode" = "Modalità scura";
+"settings_language" = "Lingua";
+"settings_notifications" = "Notifiche";
+"settings_pushes" = "Abilita notifiche push";
+"settings_test_reminder" = "Invia promemoria di prova";
+"settings_privacy" = "Informativa sulla privacy";
+"settings_delete_all" = "Elimina tutti i progressi";
+"settings_delete_all_hint" = "Elimina ricette, spesa e piano. Lingua e tema restano.";
+
+/* Notifications */
+"notif_title" = "FoodPlanerRoad";
+"notif_body" = "È ora di preparare i pasti per il viaggio!";
+
+
+
+
+/* Stats: Progress & Achievements */
+"stats_progress" = "Progresso";
+"stats_prog_recipes_created" = "Ricette create";
+"stats_prog_groceries_checked" = "Elementi spuntati";
+"stats_prog_days_planned" = "Giorni pianificati";
+"stats_achievements" = "Obiettivi";
+"stats_no_achievements" = "Nessun obiettivo ancora";
+
+/* Achievements */
+"ach_first_recipe_title" = "Prima Preparazione";
+"ach_first_recipe_desc" = "Crea la tua prima ricetta";
+"ach_prep_rookie_title" = "Principiante della Prep";
+"ach_prep_rookie_desc" = "Crea 5 ricette";
+"ach_shop_champ_title" = "Campione della Spesa";
+"ach_shop_champ_desc" = "Spunta 20 elementi della spesa";
+"ach_planner3_title" = "Pianifica x3";
+"ach_planner3_desc" = "Pianifica i pasti per 3 giorni";
+
+/* Settings note under push toggle */
+"settings_pushes_note" = "Domani alle 12:00 riceverai un promemoria per la spesa!";

@@ -1,0 +1,94 @@
+/* Onboarding */
+"onb_title_1" = "Plan food for the road";
+"onb_text_1" = "Write down quick recipes, pack smart, eat better on the go.";
+"onb_title_2" = "Track your supplies";
+"onb_text_2" = "Attach meals to travel days and auto-fill groceries.";
+"onb_title_3" = "Stay on schedule";
+"onb_text_3" = "Enable reminders and never forget to prep.";
+"onb_get_started" = "Get Started";
+
+/* Tabs */
+"tab_planner" = "Planner";
+"tab_recipes" = "Recipes";
+"tab_groceries" = "Groceries";
+"tab_stats" = "Stats";
+"tab_settings" = "Settings";
+
+/* Planner */
+"planner_selected_day" = "Selected Day";
+"planner_attached_recipes" = "Attached Recipes";
+"planner_no_recipes" = "No recipes for this day";
+"planner_add_recipe" = "Add Recipe";
+"common_close" = "Close";
+
+/* Recipes */
+"recipe_add" = "Add Recipe";
+"recipe_title" = "Title";
+"recipe_title_ph" = "e.g., Energy Wrap";
+"recipe_notes" = "Notes";
+"recipe_notes_ph" = "Storage, prep, etc.";
+"recipe_ingredients" = "Ingredients";
+"ingredient_name_ph" = "Ingredient";
+"ingredient_qty_ph" = "Qty";
+"common_cancel" = "Cancel";
+"common_save" = "Save";
+"recipe_actions" = "Actions";
+"recipe_to_groceries" = "Send ingredients to Groceries";
+
+/* Groceries */
+"groceries_add_item" = "Add Item";
+"groceries_list" = "List";
+"common_clear" = "Clear All";
+
+/* Stats */
+"stats_recipes" = "Recipes";
+"stats_groceries" = "Groceries";
+"stats_planner" = "Planner";
+"stats_total_recipes" = "Total";
+"stats_favorites" = "Favorites";
+"stats_total_items" = "Items";
+"stats_checked" = "Checked";
+"stats_days_planned" = "Days planned";
+
+/* Settings */
+"settings_appearance" = "Appearance";
+"settings_dark_mode" = "Dark Mode";
+"settings_language" = "Language";
+"settings_notifications" = "Notifications";
+"settings_pushes" = "Enable push notifications";
+"settings_test_reminder" = "Send test reminder";
+"settings_privacy" = "Privacy Policy";
+"settings_delete_all" = "Delete all progress";
+"settings_delete_all_hint" = "Deletes recipes, groceries and planner data. Language and theme stay.";
+
+/* Notifications */
+"notif_title" = "FoodPlanerRoad";
+"notif_body" = "Time to prep your road meals!";
+
+
+
+
+
+
+
+
+/* Stats: Progress & Achievements */
+"stats_progress" = "Progress";
+"stats_prog_recipes_created" = "Recipes created";
+"stats_prog_groceries_checked" = "Groceries checked";
+"stats_prog_days_planned" = "Days planned";
+"stats_achievements" = "Achievements";
+"stats_no_achievements" = "No achievements yet";
+
+/* Achievements */
+"ach_first_recipe_title" = "First Prep";
+"ach_first_recipe_desc" = "Create your first recipe";
+"ach_prep_rookie_title" = "Prep Rookie";
+"ach_prep_rookie_desc" = "Create 5 recipes";
+"ach_shop_champ_title" = "Shopping Champion";
+"ach_shop_champ_desc" = "Check 20 grocery items";
+"ach_planner3_title" = "Plan x3";
+"ach_planner3_desc" = "Plan meals for 3 days";
+
+/* Settings note under push toggle */
+"settings_pushes_note" = "Tomorrow at 12:00 you'll get a shopping reminder!";
