@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8A2FFEA82E54F10600F77C29 /* foodplaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodplaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A2FFEA82E54F10600F77C29 /* Food Planer Road.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Planer Road.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2FFEB82E54F10700F77C29 /* foodplanerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodplanerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2FFEC22E54F10700F77C29 /* foodplanerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodplanerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		8A2FFEA92E54F10600F77C29 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A2FFEA82E54F10600F77C29 /* foodplaner.app */,
+				8A2FFEA82E54F10600F77C29 /* Food Planer Road.app */,
 				8A2FFEB82E54F10700F77C29 /* foodplanerTests.xctest */,
 				8A2FFEC22E54F10700F77C29 /* foodplanerUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = foodplaner;
-			productReference = 8A2FFEA82E54F10600F77C29 /* foodplaner.app */;
+			productReference = 8A2FFEA82E54F10600F77C29 /* Food Planer Road.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8A2FFEB72E54F10700F77C29 /* foodplanerTests */ = {
@@ -413,7 +413,7 @@
 				);
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.protkanaedis.foodplaner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Planer Road";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -444,7 +444,7 @@
 				);
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.protkanaedis.foodplaner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Food Planer Road";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
