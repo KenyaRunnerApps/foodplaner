@@ -65,7 +65,9 @@
 "notif_title" = "FoodPlanerRoad";
 "notif_body" = "È ora di preparare i pasti per il viaggio!";
 
-
+"common_success" = "Operazione riuscita";
+"common_ok" = "OK";
+"recipe_added_success_message" = "Gli ingredienti sono stati aggiunti e aggiornati in Spesa.";
 
 
 /* Stats: Progress & Achievements */

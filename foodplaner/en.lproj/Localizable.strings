@@ -68,7 +68,9 @@
 
 
 
-
+"common_success" = "Success";
+"common_ok" = "OK";
+"recipe_added_success_message" = "Ingredients have been added and updated in Groceries.";
 
 
 

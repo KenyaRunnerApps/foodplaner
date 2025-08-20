@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8A2FFF8B2E562F8900F77C29 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2FFF8A2E562F8900F77C29 /* AppsFlyerLib */; };
+		8A2FFF8E2E562F9D00F77C29 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2FFF8D2E562F9D00F77C29 /* OneSignalExtension */; };
+		8A2FFF902E562F9D00F77C29 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2FFF8F2E562F9D00F77C29 /* OneSignalFramework */; };
+		8A2FFF922E562F9D00F77C29 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2FFF912E562F9D00F77C29 /* OneSignalInAppMessages */; };
+		8A2FFF942E562F9D00F77C29 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 8A2FFF932E562F9D00F77C29 /* OneSignalLocation */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8A2FFEB92E54F10700F77C29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +73,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A2FFF8B2E562F8900F77C29 /* AppsFlyerLib in Frameworks */,
+				8A2FFF942E562F9D00F77C29 /* OneSignalLocation in Frameworks */,
+				8A2FFF902E562F9D00F77C29 /* OneSignalFramework in Frameworks */,
+				8A2FFF922E562F9D00F77C29 /* OneSignalInAppMessages in Frameworks */,
+				8A2FFF8E2E562F9D00F77C29 /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +138,11 @@
 			);
 			name = foodplaner;
 			packageProductDependencies = (
+				8A2FFF8A2E562F8900F77C29 /* AppsFlyerLib */,
+				8A2FFF8D2E562F9D00F77C29 /* OneSignalExtension */,
+				8A2FFF8F2E562F9D00F77C29 /* OneSignalFramework */,
+				8A2FFF912E562F9D00F77C29 /* OneSignalInAppMessages */,
+				8A2FFF932E562F9D00F77C29 /* OneSignalLocation */,
 			);
 			productName = foodplaner;
 			productReference = 8A2FFEA82E54F10600F77C29 /* Food Planer Road.app */;
@@ -209,6 +227,10 @@
 			);
 			mainGroup = 8A2FFE9F2E54F10600F77C29;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8A2FFF892E562F8900F77C29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8A2FFEA92E54F10600F77C29 /* Products */;
 			projectDirPath = "";
@@ -578,6 +600,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A2FFF892E562F8900F77C29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.2;
+			};
+		};
+		8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A2FFF8A2E562F8900F77C29 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A2FFF892E562F8900F77C29 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		8A2FFF8D2E562F9D00F77C29 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		8A2FFF8F2E562F9D00F77C29 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		8A2FFF912E562F9D00F77C29 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		8A2FFF932E562F9D00F77C29 /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A2FFF8C2E562F9D00F77C29 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalLocation;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A2FFEA02E54F10600F77C29 /* Project object */;
 }

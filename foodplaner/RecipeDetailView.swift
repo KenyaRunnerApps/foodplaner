@@ -3,6 +3,7 @@ import SwiftUI
 struct RecipeDetailView: View {
     @StateObject private var store = DataStore.shared
     let recipe: Recipe
+    @State private var showAddedAlert: Bool = false
     
     var body: some View {
         List {
@@ -31,11 +32,17 @@ struct RecipeDetailView: View {
                     }
                     store.groceries = copy
                     store.saveAll()
+                    showAddedAlert = true
                 } label: {
                     Label("recipe_to_groceries", systemImage: "cart.badge.plus")
                 }
             }
         }
         .navigationTitle(recipe.title)
+        .alert(Text(LocalizedStringKey("common_success")), isPresented: $showAddedAlert) {
+            Button(LocalizedStringKey("common_ok"), role: .cancel) { }
+        } message: {
+            Text(LocalizedStringKey("recipe_added_success_message"))
+        }
     }
 }
