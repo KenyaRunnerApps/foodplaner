@@ -18,7 +18,7 @@ workflows:
         XCODE_PROJECT: "foodplaner.xcodeproj"
         # Если перейдёшь на CocoaPods, вместо PROJECT используй:
         # XCODE_WORKSPACE: "ReadingCoach.xcworkspace"
-        XCODE_SCHEME: “foodplaner”
+        XCODE_SCHEME: "foodplaner"
         APP_STORE_APPLE_ID: 6751238792
 
     cache:
